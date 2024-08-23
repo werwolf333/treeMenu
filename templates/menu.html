@@ -1,0 +1,19 @@
+{% load menu_tags %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+
+    {% if menu_items %}
+        {% render_menu menu_items as menu %}
+        {{ menu|safe }}
+    {% endif %}
+
+</body>
+</html>
+
+
+
