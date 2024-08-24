@@ -16,7 +16,6 @@ __pycache__/
 *.pyd
 *.sqlite3
 *.db
-*.json
 
 # Environments
 .env
@@ -35,11 +34,6 @@ secrets.json
 
 # Local development
 local_settings.py
-
-# Migrations
-migrations/
-*/migrations/*.py
-*/migrations/*.pyc
 
 # Static and media files
 staticfiles/
